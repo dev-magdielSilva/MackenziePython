@@ -1,3 +1,6 @@
+
+# faça um programa que receba quatro números inteiros, calcule e mostre a soma.
+
 print("Digite quatro números:")
 n1 = int(input())
 n2 = int(input())
