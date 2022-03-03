@@ -6,10 +6,10 @@
 
 import math
 print("Digite o preço do custo")
-custo = int(input())
+custo = float(input())
 print("custo =", custo)
 print("Digite o preço do ingresso")
-ingresso = int(input())
+ingresso = float(input())
 print("ingresso =", ingresso)
 quantidadeDeConvitesParaBancarOCusto = math.ceil(custo/ingresso) 
 print("Quantidade mínima de convites =", quantidadeDeConvitesParaBancarOCusto )
