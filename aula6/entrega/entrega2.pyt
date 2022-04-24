@@ -3,9 +3,9 @@
 # espaço em branco.
 divisor = 1
 num = int(input())
-while num < 0:
+while num <= 0:
     print("VALOR INVÁLIDO")
     num = int(input())
-for divisor in range (divisor, num):
+for divisor in range (1, num+1):
     if num % divisor == 0:
-        print(divisor)
+        print(divisor,end = " ")

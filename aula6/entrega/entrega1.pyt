@@ -6,4 +6,5 @@ while num < 0 or num > 10:
     print("VALOR INVÁLIDO")
     num = int(input())
 for i in range(1,11):
-    print(num * i)
+    result=num*i
+    print(f"{num}x{i}={result}")
